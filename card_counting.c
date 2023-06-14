@@ -18,7 +18,7 @@ int	main()
 	/* between 3-6, increase by 1*/
 	int	count;
 	count = 0;
-	if ((val >= 3) || (val <= 6))
+	if ((val >= 3) && (val <= 6))
 	{
 		count += 1;
 		printf("Count has gone up to %i", count);
