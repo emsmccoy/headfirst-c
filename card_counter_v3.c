@@ -19,10 +19,7 @@ main ()
       val = 0;
       switch (card_name[0])
 	{
-	case 'X':
-	    printf ("See you next time!");
-        return (0);
-	case 'A':
+        case 'A':
 	  val = 11;
 	  break;
 	case 'K':
